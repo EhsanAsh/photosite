@@ -22,9 +22,9 @@ img[alt='north-pole']{
 
 img:nth-of-type(2){
     display: inline-block;
-    /* position: absolute;
-    top: 3em;
-    left: .5em; */
+    position: relative;
+    top: 5em;
+    left: .5em;
     width: 9em;
     height: 9em;
     border: 0.1em solid #e5e5e5;
