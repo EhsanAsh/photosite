@@ -1,0 +1,19 @@
+img {
+    width: 30%;
+    /*by giving the images a width of 30% of parent, which is body, we can fit 3 images in a row, with 10% left. then if we wnat to add margin to left and right side of each image, we can do that by giving each image a margin of 1.6666666% which is 10% divided by 6. because we have 3 images in a row, we have 6 margins, 3 on the left and 3 on the right. so we divide 10% by 6 to get the margin for each image. */
+
+    /* margin: 1.6666666%; */
+
+    margin: calc(10%/6);
+    /*instead of above solution, we can use calc() function to calculate the margin for each image. we can do this by giving each image a margin of 10% divided by 6. */
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 1.2em 0;
+}
